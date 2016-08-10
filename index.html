@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Man Color Classifier</title>
+	
+	<script src="bower_components/jquery/dist/jquery.min.js"></script>
+	<script src="public/js/jscolor.js"></script>
+	<script src="node_modules/synaptic/dist/synaptic.js"></script>
+
+	<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="public/css/main.css">
+
+	<!-- fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+</head>
+<body>
+	<div class="title">
+		<h1>Man Color Classifier</h1>
+	</div>
+	<div class="container">
+		
+		
+		<div id="section-1" class="section row">
+			
+			<div class="col-md-6">
+				<h3>Input</h3>
+				<p>Click textbox below to pick a color</p>
+				<input class="jscolor {onFineChange:'update(this)'} form-control" value="000">
+				
+			</div>
+
+			<div class="col-md-6">
+				<h3>Output</h3>
+				<p>A man will (brutally) recognizes it as <span id="result">BLACK</span></p>
+			</div>
+			
+		</div>
+		<div id="section-2" class="section">
+			<h2>About</h2>
+			<p>An AI (artificial intelligence (or ignorance?)) to classify colors based on man perception. I mean, my perception as a male human (since I am the one who made the training dataset). It is based on artificial neural network with <a href="https://github.com/cazala/synaptic">synaptic js</a> library. Currently it can classify <strong>red, purple, pink, orange, yellow, green, blue, and black</strong>. Basically it is an RGB to color name classifier... Or just call this a joke.</p>
+			<p>The result is stupid? Nevermind. It needs a lot of training data. I mean, it needs to be introduced to a lot of color variation. Just like human learning process, it needs more learning materials to be more "clever".</p>
+			<h2>Motivation</h2>
+			<img src="public/img/male-vs-female-color-perceptions-preferences-feature-image.jpg" alt="">
+			<p>See the differences? Well, you get my point.</p>
+		</div>
+		
+		
+	</div>
+
+	<script src="public/js/main.js"></script>
+</body>
+</html>

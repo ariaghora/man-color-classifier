@@ -1,0 +1,38 @@
+body {
+	font-family: 'Nunito', sans-serif;
+	font-size: 2em;
+	text-align: justify;
+	color: #444;
+}
+
+form {
+	text-align: center;
+}
+
+.title {
+	text-align: center;
+	background-color: #3A579C;
+	color: #fff;
+	height: 64px;
+}
+
+.title h1 {
+	margin-top: 0px;
+	line-height: 64px;
+}
+
+.section {
+	min-height: 200px;
+}
+
+#result {
+	font-weight: bold;
+}
+
+#color-preview {
+	height: 100px;
+	width: 100px;
+	background-color: #000;
+	margin: 0 auto;
+	margin-top: 20px;
+}

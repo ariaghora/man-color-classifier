@@ -1,0 +1,22 @@
+{
+  "name": "malecolorclassifier",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Aria Ghora Prabono"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jscolor": "^1.4.2",
+    "bootstrap": "^3.3.7"
+  }
+}

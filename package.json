@@ -1,0 +1,14 @@
+{
+  "name": "malecolorclassifier",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aria Ghora Prabono",
+  "license": "MIT",
+  "dependencies": {
+    "synaptic": "^1.0.8"
+  }
+}
